@@ -1,76 +1,89 @@
-# Phanes Frontend
+# Svelte 5 SPA Starter
 
-Frontend application built with **Svelte 5 (Runes)** using a modern SPA architecture.
+A minimal starter template for Svelte 5 (Runes) projects with essential tooling pre-configured.
 
----
-
-## 🚀 Tech Stack
-
-- **Svelte 5 (Runes API)**
-- **SvelteKit**
-- **TypeScript**
-- **TailwindCSS v4**
-- **Adapter Static (SPA mode)**
-- **ESLint (flat config)**
-- **Prettier**
-- **Husky + lint-staged (pre-commit hooks)**
+This repository helps you quickly bootstrap a new frontend project without repeating the same setup steps.
 
 ---
 
-## 🧠 Architecture
+## Included
 
-This project uses:
-
-- Runes-based reactivity (`$state`, `$derived`, `$effect`)
-- Static adapter configured for SPA deployment
-- Strict linting and formatting rules
-- Automated code quality enforcement on commit
-
----
-
-## 🔒 Code Quality
-
-### ESLint
-
-- Flat configuration
-- TypeScript support
-- Svelte 5 compatible rules
-- No rule conflicts with Prettier
-
-### Prettier
-
-- Automatic formatting on save
-- Enforced via pre-commit hook
-
-### Husky + lint-staged
-
-- Prevents commits with lint or formatting errors
-- Ensures clean and consistent repository history
+- Svelte 5 (Runes API)
+- SvelteKit
+- TypeScript
+- TailwindCSS v4
+- @sveltejs/adapter-static (SPA mode)
+- ESLint (flat config)
+- Prettier
+- Husky + lint-staged (pre-commit hooks)
 
 ---
 
-## 🛠 Development
+## Purpose
 
-Install dependencies:
+This template exists to:
 
-    pnpm install
+- Avoid repetitive setup
+- Ensure consistent code quality
+- Provide a clean starting point for new projects
+
+---
+
+## Usage
+
+1. Click **"Use this template"** on GitHub
+2. Create a new repository
+3. Install dependencies:
+
+```bash
+pnpm install
+```
+
+4. Start development:
+
+```bash
+pnpm dev
+```
 
 ---
 
-Run dev server:
+## Available Scripts
 
-    pnpm dev
+Run development server:
 
----
+```bash
+pnpm dev
+```
 
 Run lint:
 
-    pnpm lint
-
----
+```bash
+pnpm lint
+```
 
 Format code:
 
-    pnpm format
+```bash
+pnpm format
+```
+
+Build:
+
+```bash
+pnpm build
+```
+
+Preview production build:
+
+```bash
+pnpm preview
+```
 
 ---
+
+## Notes
+
+- Configured for SPA deployment
+- TailwindCSS v4 integrated
+- Prettier runs on save
+- Commits are validated with Husky
