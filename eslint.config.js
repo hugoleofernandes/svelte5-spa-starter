@@ -20,7 +20,7 @@ export default defineConfig(
 	...svelte.configs['flat/recommended'],
 
 	{
-		files: ['**/*.svelte'],
+		files: ['**/*.svelte', '**/*.svelte.ts', '**/*.svelte.js'],
 		languageOptions: {
 			parserOptions: {
 				parser: ts.parser,
